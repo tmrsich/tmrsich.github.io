@@ -32,11 +32,12 @@ nav {
     text-align: center;
     font-size:  30px;
     position: relative;
+    transition: color 0.25s ease-in-out;
 }
 
 .nav-link-headers:hover {
     color: #e1e1e1;
-    transition: color 0.1s ease-in-out;
+    transition: color 0.25s ease-in-out;
 }
 
 .nav-link-headers:after {
