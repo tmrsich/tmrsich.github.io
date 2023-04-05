@@ -68,15 +68,6 @@ nav {
 All elements and styles below the navbar
 */
 
-.fade {
-    opacity: 0;
-    transition: opacity 2s ease-in-out;
-}
-
-.fade.fade-in {
-    opacity: 1;
-}
-
 /*Section and nested elements*/
 
 section {
@@ -99,10 +90,19 @@ section {
     text-align: center;
 }
 
-#intro-name {
+#intro-name, #about-me {
     margin: 0 auto;
     margin-top: 30px;
     font-size: 64px;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.fade.fade-in {
+    opacity: 1;
 }
 
 /*Sets up properties that allows image to fade in on page load*/
@@ -128,4 +128,20 @@ section {
 #intro-image:hover {
     opacity: 1;
     transition: opacity 0.25s ease-out;
+}
+
+#about-me-p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    width: 90%;
+    opacity: 0.75;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#about-me-p:hover {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
 }
