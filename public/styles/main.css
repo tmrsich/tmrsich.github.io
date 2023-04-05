@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     overflow: hidden;
+    color: #e1e1e1;
 }
 
 html, body {
@@ -19,19 +20,19 @@ nav {
     border: 1px solid white;
 }
 
-h1 {
+.nav-link-headers {
     color: #bbbbbb;
     text-align: center;
     font-size:  30px;
     position: relative;
 }
 
-h1:hover {
+.nav-link-headers:hover {
     color: #e1e1e1;
     transition: color 0.1s ease-in-out;
 }
 
-h1:after {
+.nav-link-headers:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -44,22 +45,12 @@ h1:after {
     transition: transform 0.25s ease-out;
 }
 
-h1:hover:after {
+.nav-link-headers:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-.main-header {
-    margin: 0 25px;
-    text-align: center;
-}
-
-img {
-    height: 50px;
-    margin: 0 10px;
-}
-
-.nav-links {
+.nav-links-div {
     display: flex;
     border: 1px solid red;
     flex-grow: 1;
