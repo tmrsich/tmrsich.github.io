@@ -52,7 +52,25 @@ nav {
 
 .nav-links-div {
     display: flex;
-    border: 1px solid red;
     flex-grow: 1;
     justify-content: space-evenly;
+}
+
+#hello-statement {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#hello-statement.fade-in {
+    opacity 1;
+}
+
+section {
+    display: block;
+    border: 1px solid white;
+    margin-top: 7.5%;
+}
+
+h1 {
+    text-align: center;
 }
