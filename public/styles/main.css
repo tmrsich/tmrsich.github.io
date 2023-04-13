@@ -2,15 +2,27 @@
 Barebones styles
 */
 
+:root {
+    --default-color: #e1e1e1;
+    --background-color: #292929;
+    --header-color: #bbbbbb;
+}
+
 * {
     box-sizing: border-box;
-    overflow: hidden;
-    color: #e1e1e1;
+    background: var(--background-color); 
+    color: var(--default-color);
 }
 
 html, body {
-    background: #292929;
-    height: 100%;
+    height: 100%; 
+    /*The reason why I don't put the background property here is because not all properties are inherited from
+    the html element, such as background-color, border, margin, padding, width, height, position, and z-index.
+    
+    The only way these types of properties can be "inherited" from the parent element is by using the "*" selector,
+    which is the same idea as taking a property and copying & pasting it into each element selector individually.
+    Thus, by setting the background color for all elements as the same, it allows me to change the background
+    for specific elements if I choose to do so.*/
 }
 
 /*
@@ -25,10 +37,11 @@ nav {
     display: flex;
     align-items: center;
     border: 1px solid white;
+    z-index: 1;
 }
 
 .nav-link-headers {
-    color: #bbbbbb;
+    color: var(--header-color);
     text-align: center;
     font-size:  30px;
     position: relative;
@@ -36,7 +49,7 @@ nav {
 }
 
 .nav-link-headers:hover {
-    color: #e1e1e1;
+    color: var(--default-color);
     transition: color 0.25s ease-in-out;
 }
 
@@ -48,7 +61,7 @@ nav {
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: #e1e1e1;
+    background-color: var(--default-color);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -105,7 +118,8 @@ section {
     opacity: 1;
 }
 
-/*Sets up properties that allows image to fade in on page load*/
+/*Sets up properties that allows image to fade in on page load. This works by adding
+the class of "fade-in-image" to the actual image once the page has loaded.*/
 
 .fade-image {
     opacity: 0;
