@@ -12,6 +12,7 @@ Barebones styles
     box-sizing: border-box;
     background: var(--background-color); 
     color: var(--default-color);
+    font-family: Helvetica, Arial, Impact, sans-serif, serif;
 }
 
 html, body {
