@@ -13,6 +13,7 @@ Barebones styles
     background: var(--background-color); 
     color: var(--default-color);
     font-family: Helvetica, Arial, Impact, sans-serif, serif;
+    scroll-behavior: smooth;
 }
 
 html, body {
@@ -42,16 +43,9 @@ nav {
 }
 
 .nav-link-headers {
-    color: var(--header-color);
     text-align: center;
     font-size:  30px;
     position: relative;
-    transition: color 0.25s ease-in-out;
-}
-
-.nav-link-headers:hover {
-    color: var(--default-color);
-    transition: color 0.25s ease-in-out;
 }
 
 .nav-link-headers:after {
@@ -78,6 +72,17 @@ nav {
     justify-content: space-evenly;
 }
 
+a {
+    z-index: -5;
+    text-decoration: none;
+    color: var(--header-color);
+    transition: color 0.25s ease-in-out;
+}
+
+a:hover {
+    color: var(--default-color);
+    transition: color 0.25s ease-in-out;
+}
 /*
 All elements and styles below the navbar
 */
