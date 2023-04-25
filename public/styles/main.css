@@ -93,7 +93,7 @@ section {
     display: block;
     border: 1px solid white;
     margin-top: 7.5%;
-    height: 500px;
+    height: 600px;
 }
 
 #intro-section {
@@ -164,4 +164,11 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 #about-me-p:hover {
     opacity: 1;
     transition: opacity 0.2s ease-in-out;
+}
+
+/* Sectional elements */
+.section-header {
+    display: flex;
+    text-align: center;
+    border: 1px solid white;
 }
