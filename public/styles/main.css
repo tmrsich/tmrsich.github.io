@@ -53,6 +53,13 @@ nav {
     z-index: 1;
 }
 
+.nav-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
 .nav-links-div {
     display: flex;
     flex-grow: 1;
