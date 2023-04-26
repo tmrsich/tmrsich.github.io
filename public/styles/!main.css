@@ -27,17 +27,6 @@ html, body {
     for specific elements if I choose to do so.*/
 }
 
-/* Javascript classes for transitions */
-
-.fade {
-    opacity: 0;
-    transition: opacity 1.5s ease-in-out;
-}
-
-.fade.fade-in {
-    opacity: 1;
-}
-
 /*
 nav and nested elements
 */
@@ -123,69 +112,9 @@ section {
     height: 600px;
 }
 
-#intro-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
-    border: 2px solid white;
-}
-
-#intro_left-panel, #intro_right-panel {
-    border: 1px solid white;
-    display: inline;
-    text-align: center;
-}
-
-#intro-title, #about-me-title {
-    margin: 0 auto;
-    margin-top: 30px;
-    font-size: 64px;
-}
-
-/*Sets up properties that allows image to fade in on page load. This works by adding
-the class of "fade-in-image" to the actual image once the page has loaded.*/
-
-.fade-image {
-    opacity: 0;
-}
-
-.fade-image.fade-in-image {
-    opacity: 0.25;
-    transition: opacity 1s ease-in-out;
-}
-
-/*Actual CSS properties of the image*/
-
-#intro-image {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin-top: 30px;
-}
-
-#intro-image:hover {
-    opacity: 1;
-    transition: opacity 0.25s ease-out;
-}
-
-#about-me-p {
-    text-align: justify;
-    font-size: 20px;
-    margin: 0 auto;
-    margin-top: 20px;
-    border: 1px solid white;
-    width: 90%;
-    opacity: 0.75;
-    transition: opacity 0.2s ease-in-out;
-}
-
-#about-me-p:hover {
-    opacity: 1;
-}
-
-/* Sectional elements */
 .section-header {
-    display: flex;
+    display: block;
     text-align: center;
     border: 1px solid white;
+    font-size: 48px;
 }
