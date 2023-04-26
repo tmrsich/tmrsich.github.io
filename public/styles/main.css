@@ -27,6 +27,17 @@ html, body {
     for specific elements if I choose to do so.*/
 }
 
+/* Javascript classes for transitions */
+
+.fade {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.fade.fade-in {
+    opacity: 1;
+}
+
 /*
 nav and nested elements
 */
@@ -38,12 +49,19 @@ nav {
     height: 10%;
     display: flex;
     align-items: center;
-    border: 1px solid white;
+    border-bottom: 1px solid white;
     z-index: 1;
 }
 
+.nav-links-div {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
 .nav-link-headers {
-    text-align: center;
     font-size:  30px;
     position: relative;
 }
@@ -66,14 +84,7 @@ nav {
     transform-origin: bottom left;
 }
 
-.nav-links-div {
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-evenly;
-}
-
 a {
-    z-index: -5;
     text-decoration: none;
     color: var(--header-color);
     transition: color 0.25s ease-in-out;
@@ -81,8 +92,16 @@ a {
 
 a:hover {
     color: var(--default-color);
-    transition: color 0.25s ease-in-out;
 }
+
+.main-header {
+    margin: 0 25px;
+    text-align: center;
+    padding: px;
+    border-width: 2px 0;
+    border-style: solid;
+}
+
 /*
 All elements and styles below the navbar
 */
@@ -113,15 +132,6 @@ section {
     margin: 0 auto;
     margin-top: 30px;
     font-size: 64px;
-}
-
-.fade {
-    opacity: 0;
-    transition: opacity 1.5s ease-in-out;
-}
-
-.fade.fade-in {
-    opacity: 1;
 }
 
 /*Sets up properties that allows image to fade in on page load. This works by adding
@@ -163,7 +173,6 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 
 #about-me-p:hover {
     opacity: 1;
-    transition: opacity 0.2s ease-in-out;
 }
 
 /* Sectional elements */
