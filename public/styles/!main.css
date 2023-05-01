@@ -94,7 +94,7 @@ a:hover {
 .main-header {
     margin: 0 25px;
     text-align: center;
-    padding: 7px 0px 3px;
+    padding: 4px 0px 3px;
     border-width: 2px 0;
     border-style: solid;
 }
@@ -106,7 +106,8 @@ All elements and styles below the navbar
 /*Section and nested elements*/
 
 section {
-    display: block;
+    display: flex;
+    flex-direction: column;
     border: 1px solid white;
     margin-top: 7.5%;
     height: 600px;
@@ -115,6 +116,14 @@ section {
 .section-header {
     display: block;
     text-align: center;
-    border: 1px solid white;
     font-size: 48px;
+}
+
+.section-header:after {
+    display: block;
+    content: "";
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
 }
