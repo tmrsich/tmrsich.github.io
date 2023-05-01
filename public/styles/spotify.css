@@ -1,0 +1,13 @@
+#spotify-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 5px solid maroon;
+}
+
+iframe {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border-radius: 12px;
+}
