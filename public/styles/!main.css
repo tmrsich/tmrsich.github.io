@@ -133,7 +133,6 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
-    border: 1px solid white;
 }
 
 .horizontal-split {
@@ -141,5 +140,4 @@ section {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 5px;
-    border: 1px solid white;
 }
