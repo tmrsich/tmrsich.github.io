@@ -127,3 +127,20 @@ section {
     padding-top: 10px;
     border-bottom: 2px solid white;
 }
+
+.vertical-split {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    border: 1px solid white;
+}
+
+.horizontal-split {
+    flex: 1;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5px;
+    border: 1px solid white;
+    align-items: center;
+}
