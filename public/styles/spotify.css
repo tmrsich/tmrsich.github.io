@@ -1,13 +1,16 @@
-#spotify-grid {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 5px solid maroon;
+#spotify-section {
+    padding-bottom: 20px;
+}
+
+#spotify-section h2 {
+    font-size: 18px;
+    margin-top: -25px;
 }
 
 iframe {
     margin: auto;
-    width: 90%;
+    width: 95%;
     height: 100%;
     border-radius: 12px;
+    border: 1px solid magenta;
 }
