@@ -4,13 +4,12 @@
 
 #spotify-section h2 {
     font-size: 18px;
-    margin-top: -25px;
 }
 
 iframe {
     flex: 1;
     margin: auto;
-    width: 100%;
+    width: 90%;
     height: 100%;   
     border-radius: 12px;
 }
