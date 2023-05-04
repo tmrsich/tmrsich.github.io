@@ -24,7 +24,7 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 #intro-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
+    grid-gap: 0.25vw;
 }
 
 #intro_left-panel, #intro_right-panel {
@@ -34,14 +34,14 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 
 #intro-title, #about-me-title {
     margin: 0 auto;
-    margin-top: 30px;
-    font-size: 64px;
+    margin-top: 1.5vw;
+    font-size: 3.2vw;
 }
 
 #intro-image {
-    height: 400px;
+    height: 20vw;
     border-radius: 50%;
-    margin-top: 30px;
+    margin-top: 3vw;
 }
 
 #intro-image:hover {
