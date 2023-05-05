@@ -39,9 +39,8 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 }
 
 #intro-image {
-    height: 20vw;
+    height: 25vw;
     border-radius: 50%;
-    margin-top: 3vw;
 }
 
 #intro-image:hover {
@@ -61,4 +60,17 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 
 #about-me-p:hover {
     opacity: 1;
+}
+
+#icons-div {
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    margin: 1vw auto;
+}
+
+.icon {
+    width: 3.25vw;
+    height: 3.25vw;
+    border-radius: 0.75vw;
 }
