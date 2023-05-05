@@ -43,13 +43,6 @@ nav {
     z-index: 1;
 }
 
-.nav-icon {
-    width: 2.5vw;
-    height: 2.5vw;
-    margin: 0 0.5vw;
-    border-radius: 0.75vw;
-}
-
 .nav-links-div {
     display: flex;
     flex-grow: 1;
@@ -59,7 +52,7 @@ nav {
 }
 
 .nav-link-headers {
-    font-size:  1.5vw;
+    font-size:  2vw;
     position: relative;
 }
 
@@ -110,13 +103,17 @@ section {
     display: flex;
     flex-direction: column;
     margin-top: 7.5%;
-    height: 1000px;
+    height: 75vw;
+}
+
+section + section {
+    margin-top: 5vw;
 }
 
 .section-header {
     display: block;
     text-align: center;
-    font-size: 2.4vw;
+    font-size: 5vw;
 }
 
 .section-header:after {
