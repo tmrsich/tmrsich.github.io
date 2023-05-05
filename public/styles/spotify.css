@@ -1,13 +1,9 @@
-#spotify-section {
-    padding-bottom: 20px;
-}
-
 #spotify-section h2 {
-    font-size: 18px;
+    font-size: 1.5vw;
 }
 
 iframe {
-    width: 95%;
-    height: 100%;
+    width: 45vw;
+    height: 60vh;
     border-radius: 12px;
 }
