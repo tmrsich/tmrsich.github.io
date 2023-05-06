@@ -78,5 +78,5 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 }
 
 .icon:hover {
-    border: 2px solid var(--default-color);
+    border: 5px solid var(--default-color);
 }
