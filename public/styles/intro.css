@@ -73,4 +73,10 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
     width: 3.25vw;
     height: 3.25vw;
     border-radius: 0.75vw;
+    border: 0px solid black;
+    transition: border 0.1s;
+}
+
+.icon:hover {
+    border: 2px solid var(--default-color);
 }
