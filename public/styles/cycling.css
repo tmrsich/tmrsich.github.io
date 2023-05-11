@@ -1,0 +1,21 @@
+#cycling-section *:not(#cycling-image) {
+    border: 2px solid white;
+}
+
+#cycling-image {
+    height: 26vw;
+    margin-left: 0.5vw;
+}
+
+#horizontal-top {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 36vw 1fr;
+    border: 5px solid magenta !important;
+}
+
+#horizontal-top-right {
+    height: 26vw;
+    margin-right: 0.5vw;
+    border: 5px solid red !important;
+}
