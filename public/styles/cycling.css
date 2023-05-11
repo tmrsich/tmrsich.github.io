@@ -1,6 +1,6 @@
-#cycling-section *:not(#cycling-image) {
+/* #cycling-section *:not(#cycling-image) {
     border: 2px solid white;
-}
+} */
 
 #cycling-image {
     height: 26vw;
@@ -11,11 +11,19 @@
     align-items: center;
     display: grid;
     grid-template-columns: 36vw 1fr;
-    border: 5px solid magenta !important;
 }
 
 #horizontal-top-right {
     height: 26vw;
     margin-right: 0.5vw;
-    border: 5px solid red !important;
+    border: 5px solid magenta;
+}
+
+#cycling-section p {
+    border: 5px solid red;
+    margin: 0 auto;
+    width: 60vw; 
+    text-align: justify;
+    font-size: 1.6vw;
+    
 }
