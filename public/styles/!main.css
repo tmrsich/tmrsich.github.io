@@ -143,3 +143,12 @@ section {
     grid-gap: 2vw;
     height: 100%;
 }
+
+.fade-text {
+    opacity: 0.75;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.fade-text:hover {
+    opacity: 1;
+}
