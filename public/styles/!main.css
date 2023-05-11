@@ -145,6 +145,7 @@ section {
 }
 
 .fade-text {
+    margin: 0 auto;
     opacity: 0.75;
     transition: opacity 0.2s ease-in-out;
 }
