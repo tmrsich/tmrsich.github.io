@@ -3,7 +3,7 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 
 .fade {
     opacity: 0;
-    transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-out;
 }
 
 .fade.fade-in {
@@ -16,7 +16,7 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 
 .fade-image.fade-in-image {
     opacity: 0.25;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-out;
 }
 
 /* Intro section styling the container (whole div) and separating it into two panels (intro_left-panel and intro_right-panel */
@@ -41,11 +41,13 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 #intro-image {
     height: 25vw;
     border-radius: 50%;
+    border: 0vh solid var(--background-color);
+    transition: all 0.2s ease-out;
 }
 
 #intro-image:hover {
     opacity: 1;
-    transition: opacity 0.25s ease-out;
+    border: 1vh solid var(--background-color);
 }
 
 #about-me-p {
