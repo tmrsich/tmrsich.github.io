@@ -1,5 +1,8 @@
 iframe {
     width: 45vw;
     height: 100%;
+     /* For some reason Spotify adds a discolored border
+    whenever the border property is set to 0, this fixes it */
+    border: 0px solid var(--background-color);
     border-radius: 12px;
 }
