@@ -119,6 +119,8 @@ section {
     border-bottom: 0.1vw solid white;
 }
 
+/* Styles for h2 and h3 elements within section elements */
+
 .section-h2 {
     font-size: 1.5vw;
     margin-top: -2.5vw;
@@ -129,6 +131,8 @@ section {
     font-size: 1.35vw;
     text-align: center;
 }
+
+/* Styles for dividing a container into two */
 
 .vertical-split {
     display: grid;
