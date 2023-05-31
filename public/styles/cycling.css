@@ -16,7 +16,7 @@
 }
 
 #cycling-image:hover {
-    border: 1vh solid var(--background-color);
+    transform: scale(1.03);
 }
 
 #horizontal-top {

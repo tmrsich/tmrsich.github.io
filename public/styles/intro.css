@@ -47,7 +47,7 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 
 #intro-image:hover {
     opacity: 1;
-    border: 1vh solid var(--background-color);
+    transform: scale(1.03);
 }
 
 #about-me-p {
