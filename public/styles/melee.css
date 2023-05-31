@@ -1,0 +1,8 @@
+#melee-section img {
+    height: 20vw;
+    margin: 0 auto;
+}
+
+#melee-section .vertical-split {
+    border: 5px solid white;
+}
