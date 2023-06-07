@@ -1,0 +1,17 @@
+/*
+Barebones styles
+*/
+
+:root {
+    --default-color: #2f40a8;
+    --background-color: #2f70a8;
+    --header-color: #2c97bf;
+}
+
+* {
+    box-sizing: border-box;
+    background: var(--background-color); 
+    color: var(--default-color);
+    font-family: Helvetica, Arial, Impact, sans-serif, serif;
+    scroll-behavior: smooth;
+}
