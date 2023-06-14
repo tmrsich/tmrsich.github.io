@@ -4,7 +4,7 @@ Barebones styles
 
 :root {
     --default-color: #2f40a8;
-    --background-color: #2f70a8;
+    --background-color: #3a75c8;
     --header-color: #2c97bf;
 }
 
@@ -18,4 +18,21 @@ Barebones styles
 
 html, body {
     height: 100%;
+}
+
+.back-arrow {
+    position: absolute;
+    height: 3vw;
+    margin-top: 0.6vw;
+    background: transparent;
+}
+
+#back-arrow {
+    opacity: 100%;
+    transition: opacity 0.175s ease-in-out;
+    z-index: 1;
+}
+
+#back-arrow:hover {
+    opacity: 0%;
 }
