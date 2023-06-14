@@ -79,3 +79,28 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 .icon:hover {
     border: 3px solid var(--default-color);
 }
+
+#financial-tools-redirect {
+    letter-spacing: 0.1vw;
+    font-size: 1.5vw;
+}
+
+#page-redirect {
+    color: #bbbbbb;
+    z-index: 5;
+    transition: color 0.2 ease-in-out;
+    position: relative;
+    font-size: 1.5vw;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+#page-redirect:hover {
+    color: #7d7d7d;
+    border-bottom: 0px;
+}
+
+#page-redirect:hover:after {
+    border-bottom: none;
+    background-color: #6e6e6e;
+    height: 0.15vw;
+}
