@@ -15,3 +15,7 @@ Barebones styles
     font-family: Helvetica, Arial, Impact, sans-serif, serif;
     scroll-behavior: smooth;
 }
+
+html, body {
+    height: 100%;
+}
