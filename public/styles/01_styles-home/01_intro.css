@@ -88,16 +88,16 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
 }
 
 #page-redirect {
-    color: #bbbbbb;
-    z-index: 5;
-    transition: color 0.2 ease-in-out;
-    position: relative;
+    color: #7d7d7d;
+    transition: color 0.2s ease-in-out;
     font-size: 1.5vw;
-    border-bottom: 0.2vw solid #7d7d7d;
+}
+
+#page-redirect:after {
+    background-color: #bbbbbb;
 }
 
 #page-redirect:hover {
-    color: #7d7d7d;
-    text-decoration: none;
+    color: #bbbbbb;
     border-bottom: none;
 }
