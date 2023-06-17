@@ -1,7 +1,7 @@
 #cycling-image {
     height: 26vw;
     margin-left: 0.5vw;
-    border-radius: 5vh;
+    border-radius: 50px;
     opacity: 0.75;
     transition: all 0.2s ease-out;
     border: 0vh solid var(--background-color);
