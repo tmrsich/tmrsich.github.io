@@ -11,7 +11,7 @@ nav {
     display: flex;
     align-items: center;
     border-bottom: 0.05vw solid white;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav-links-div {
