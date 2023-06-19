@@ -75,11 +75,12 @@ the class of "fade-in-image" to the actual image once the page has loaded.*/
     height: 3.25vw;
     border-radius: 0.75vw;
     border: 0px solid black;
-    transition: border 0.1s ease-out;
+    transition: all 0.1s ease-out;
 }
 
 .icon:hover {
-    border: 3px solid var(--default-color);
+    transform: scale(1.25);
+    border: 2px solid var(--header-color);
 }
 
 #financial-tools-redirect {
