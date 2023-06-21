@@ -21,10 +21,9 @@ html, body {
 }
 
 .back-arrow {
-    position: absolute;
+    position: fixed;
     height: 3vw;
-    margin-top: 0.6vw;
-    background: transparent;
+    margin: -1.5vw auto auto -4.5vw;
 }
 
 #back-arrow {
@@ -35,4 +34,10 @@ html, body {
 
 #back-arrow:hover {
     opacity: 0%;
+}
+
+section {
+    display: block;
+    height: 25vw;
+    margin-top: 6vw;
 }
