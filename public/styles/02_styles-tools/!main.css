@@ -4,15 +4,16 @@ Barebones styles
 
 :root {
     --default-color: #2f40a8;
-    --background-color: #3a75c8;
+    --background-color: #4177c4;
     --header-color: #2c97bf;
+    --submit-color: #e4e4e4;
 }
 
 * {
     box-sizing: border-box;
     background: var(--background-color); 
     color: var(--default-color);
-    font-family: Helvetica, Arial, Impact, sans-serif, serif;
+    font-family: "Segoe UI", Helvetica, Arial, Impact, sans-serif, serif;
     scroll-behavior: smooth;
 }
 
@@ -37,7 +38,7 @@ html, body {
 }
 
 section {
-    display: block;
-    height: 25vw;
+    height: flex;
     margin-top: 6vw;
+    border: 5px solid black;
 }
