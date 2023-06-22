@@ -1,5 +1,36 @@
 #amortization-inputs {
-    width: 100%;
     height: 50%;
-    border: 5px solid black;
+    padding: 1vw 1vw 0;
+    font-size: 1vw;
+    border: 5px solid pink;
+    align-items: center;
 }
+
+td {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+
+#amortization-inputs input {
+    border: 0.2vw solid black;
+    font-size: 1vw;
+}
+
+#submit {
+    margin: 1vw auto;
+    width: flex;
+    font-size: 1.5vw;
+    border: 2px solid black;
+    transition: all 0.25s ease-in-out;
+    font-family: "Segoe UI";
+}
+
+#submit:hover {
+    border: 2px solid var(--submit-color);
+    color: var(--submit-color);
+    
+}
+
+
