@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/styles/02_styles-tools/!main.css">
+    <link rel="stylesheet" href="../public/styles/02_styles-tools/01_amortization.css">
     <link rel="stylesheet" href="../public/styles/03_styles-other/01_nav.css">
     <link rel="stylesheet" href="../public/styles/03_styles-other/02_misc.css">
     <title>Financial Tools</title>
@@ -19,7 +20,15 @@
     </nav>
     
     <section id="amortization-calculator">
-        <div>
+        <table id="amortization-inputs" class="amortization">
+            <td id="loan-amount">Loan Amount:</td>
+            <td><input id="principal" type="text"></td>
+            <td id="interest-rate">Interest Rate:</td>
+            <td><input id="interesate" type="number"></td>
+            <td id="loan terms">Loan Terms:</td>
+            <td><input id="years" type="number"></td> 
+            <td><button id="submit">Submit</button></td>
+        </table>
     </section>
 </body>
 </html>
