@@ -22,13 +22,16 @@
     <section id="amortization-calculator">
         <table id="amortization-inputs" class="amortization">
             <td id="loan-amount">Loan Amount:</td>
-            <td><input id="principal" type="text"></td>
+            <td><input id="principal" type="number"></td>
             <td id="interest-rate">Interest Rate:</td>
-            <td><input id="interesate" type="number"></td>
+            <td><input id="interestRate" type="number"></td>
             <td id="loan terms">Loan Terms:</td>
-            <td><input id="years" type="number"></td> 
+            <td><input id="years" type="number" placeholder="years"></td> 
             <td><button id="submit">Submit</button></td>
         </table>
+
+        <div id="amortizationSchedule"></div>
     </section>
 </body>
+    <script src="../public/scripts/02_financial-tools/amortization-calculator.js"></script>
 </html>
