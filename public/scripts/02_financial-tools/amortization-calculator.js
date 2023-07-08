@@ -13,6 +13,7 @@ function calculateAmortization() {
     (1 - Math.pow(1 + monthlyInterestRate, -months));
 
   var table = document.createElement('table'); // Create the table element
+  table.id = "financial-information"; // Sets the id of the table to "financial-information"
 
   // Create the table headers
   var headerRow = document.createElement('tr');
