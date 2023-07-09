@@ -6,15 +6,20 @@
     border: 5px solid pink;
 }
 
-td {
+#amortization-inputs td {
     display: flex;
-    flex-direction: row;
     font-weight: bold;
+    text-indent: 2vw;
 }
 
 #amortization-inputs input {
     border: 0.2vw solid black;
     font-size: 1vw;
+    margin: 0 auto;
+}
+
+#principal::placeholder, #interestRate::placeholder, #years::placeholder {
+    color: var(--placeholder-color);
 }
 
 #submit {
@@ -22,7 +27,7 @@ td {
     width: flex;
     font-size: 1.5vw;
     border: 2px solid black;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.2s ease-in-out;
     font-family: "Segoe UI";
 }
 
