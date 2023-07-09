@@ -1,13 +1,17 @@
 document.getElementById("submit").addEventListener("click", calculateAmortization);
 
 function calculateAmortization() {
+
+  // Gets the principal, interestRate, and years value from user inputs
   var principal = parseFloat(document.getElementById("principal").value);
   var interestRate = parseFloat(document.getElementById("interestRate").value);
   var years = parseFloat(document.getElementById("years").value);
 
+  // Calculates the monthly interest rate in addition to the amount of months
   var monthlyInterestRate = interestRate / 12 / 100;
   var months = years * 12;
 
+  // Calculates the monthly payment 
   var monthlyPayment =
     (principal * monthlyInterestRate) /
     (1 - Math.pow(1 + monthlyInterestRate, -months));
@@ -25,7 +29,7 @@ function calculateAmortization() {
   });
   table.appendChild(headerRow);
 
-  // Generate the amortization schedule rows
+  // Generate the amortization schedule rows by creating a div with an id "amortizationSchedule"
   var amortizationSchedule = '';
   for (let i = 0; i < months; i++) {
     let interest = principal * monthlyInterestRate;
