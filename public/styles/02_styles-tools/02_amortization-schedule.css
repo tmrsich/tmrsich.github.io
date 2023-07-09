@@ -2,14 +2,12 @@
     margin: 1vw;
     width: 23vw;
     display: flex;
-    border: 1px solid black;
 }
 
 #financial-information th, #financial-information td {
     padding: 0 1vw;
     text-align: center;
     font-size: 0.5vw;
-    line-height: 1vw;
 }
 
 #financial-information td {
