@@ -1,20 +1,20 @@
-#melee-section img {
-    height: 20vw;
-    margin: 0 auto;
-}
-
 #melee-section {
     border: 5px solid white;
     position: relative;
 }
 
-.horizontal-split img {
-    margin: 0 auto;
-}
-.vertical-split, .horizontal-split {
-    border: 2px dotted white !important;
+#melee-section img {
+    height: 20vw;
 }
 
-#left-side {
-    position: relative;
+#falco-group, #fox-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
 }
+
+/* #melee-section * {
+    border: 1px solid red;
+} */
