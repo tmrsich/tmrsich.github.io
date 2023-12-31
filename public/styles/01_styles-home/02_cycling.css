@@ -26,7 +26,7 @@
 .cycling-detail {
     position: relative;
     left: 25px;
-    right: 50px;
+    font-size: 1.125vw;
     overflow: hidden;
     margin: 0 auto;
 }
