@@ -1,6 +1,7 @@
 #melee-section {
-    border: 5px solid white;
+    /* border: 5px solid white; */
     position: relative;
+    margin-top: 5vw;
 }
 
 #melee-section img {
