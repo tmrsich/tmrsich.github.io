@@ -23,13 +23,12 @@
     border: 5px solid magenta;
 }
 
-#cycling-gearspecs {
-    display: flex;
-    justify-content: space-around;
-    width: 60vw; 
-    font-size: 1.25vw;
-    line-height: 4vw;
-    border: 5px solid red;
+.cycling-detail {
+    position: relative;
+    left: 25px;
+    right: 50px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 #cycling-adventures, #cycling-maintenance {
