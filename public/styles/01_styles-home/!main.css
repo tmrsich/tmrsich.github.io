@@ -2,6 +2,8 @@
 Barebones styles
 */
 
+/* ZFlip4 Viewport Width & Height: 412 x 1004 px */
+
 :root {
     --default-color: #e1e1e1;
     --background-color: #292929;
@@ -35,15 +37,6 @@ a {
 
 a:hover {
     color: var(--default-color);
-}
-
-.main-header {
-    margin: 0 1.25vw;
-    text-align: center;
-    padding: 0.2vw 0 0.15vw;
-    border-width: 0.1vw 0;
-    border-style: solid;
-    font-size: 1.5vw;
 }
 
 /*
