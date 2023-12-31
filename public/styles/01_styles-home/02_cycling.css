@@ -31,3 +31,12 @@
     line-height: 4vw;
     border: 5px solid red;
 }
+
+#cycling-adventures, #cycling-maintenance {
+    border: 1px solid white;
+}
+
+.cycling-desc-text {
+    border: 1px solid red;
+    margin: 0 30px;
+}
