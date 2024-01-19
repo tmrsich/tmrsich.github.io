@@ -3,7 +3,7 @@
     margin-left: 0.5vw;
     border-radius: 5vw;
     opacity: 0.75;
-    transition: all 0.2s ease-out;
+    transition: all 0.2s ease;
     border: 0vh solid var(--background-color);
 }
 
@@ -13,19 +13,16 @@
 
 #horizontal-top {
     display: grid;
-    grid-template-columns: 36vw 1fr;
+    grid-template-columns: 38vw 1fr;
     align-items: center;
 }
 
 #horizontal-top-right {
     height: 26vw;
-    margin-right: 0.5vw;
-    border: 5px solid magenta;
 }
 
 .cycling-detail {
     font-size: 1.125vw;
-    margin: auto;
 }
 
 #cycling-adventures, #cycling-maintenance {
