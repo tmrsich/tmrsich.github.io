@@ -13,7 +13,7 @@
 
 #horizontal-top {
     display: grid;
-    grid-template-columns: 38vw 1fr;
+    grid-template-columns: 37vw 1fr;
     align-items: center;
 }
 
