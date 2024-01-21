@@ -3,6 +3,9 @@ Barebones styles
 */
 
 /* ZFlip4 Viewport Width & Height: 412 x 1004 px */
+/* Smallest Viewport Width: 1024 x 768 px */
+/* iPhone 5 Viewport Width: 320px */
+
 
 :root {
     --default-color: #e1e1e1;
