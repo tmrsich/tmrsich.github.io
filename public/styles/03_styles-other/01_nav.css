@@ -73,3 +73,13 @@ nav {
         font-size: 18px;
     }
 }
+
+@media (max-width: 321px) {
+    nav {
+        height: 20px;
+    }
+
+    .nav-link-headers {
+        font-size: 14px;
+    }
+}
