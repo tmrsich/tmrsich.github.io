@@ -25,3 +25,25 @@
 .fade-text:hover {
     opacity: 1;
 }
+
+/* Sets up properties that allows image to fade in on page load. This works by adding
+the class of "fade-in-image" to the actual image once the page has loaded. */
+
+.fade {
+    opacity: 0;
+    transition: opacity 1.5s ease-out;
+}
+
+.fade.fade-in {
+    opacity: 1;
+}
+
+.fade-image {
+    opacity: 0;
+}
+
+.fade-image.fade-in-image {
+    opacity: 0.25;
+    transition: opacity 1s ease-out;
+}
+
