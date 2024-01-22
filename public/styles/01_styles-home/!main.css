@@ -52,6 +52,7 @@ section {
     display: flex;
     flex-direction: column;
     height: 75vw;
+    height: auto;
 }
 
 .section-header {
