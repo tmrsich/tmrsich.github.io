@@ -30,7 +30,6 @@ function calculateAmortization() {
   table.appendChild(headerRow);
 
   // Generate the amortization schedule rows by creating a div with an id "amortizationSchedule"
-  var amortizationSchedule = '';
   for (let i = 0; i < months; i++) {
     let interest = principal * monthlyInterestRate;
     let principalPayment = monthlyPayment - interest;
