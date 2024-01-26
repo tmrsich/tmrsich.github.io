@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 40vw 1fr;
     height: 40vw;
-    margin-top: 7.5%;
+    margin-top: 10%;
 }
 
 #intro_left-panel {
