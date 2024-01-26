@@ -2,6 +2,12 @@
     height: 100vw;
 }
 
+#trek-bike {
+    grid-gap: 0vw;
+    height: 50vw;
+    align-items: center;
+}
+
 #cycling-image {
     height: 26vw;
     margin-left: 0.5vw;
@@ -26,11 +32,6 @@
     height: 26vw;
 }
 
-#cycling-adventures, #cycling-maintenance {
-    border: 1px solid white;
-    height: 20vw;
-}
-
 .cycling-desc-text {
     border: 1px solid red;
     margin: 0 30px;
@@ -39,3 +40,14 @@
 .cycling-detail {
     font-size: 1.25vw;
 }
+
+#h-other {
+    align-items: center;
+    height: 22vw;
+}
+
+#cycling-adventures, #cycling-maintenance {
+    border: 1px solid white;
+    height: 20vw;
+}
+
