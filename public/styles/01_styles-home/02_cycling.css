@@ -1,3 +1,7 @@
+#cycling-section {
+    height: 100vw;
+}
+
 #cycling-image {
     height: 26vw;
     margin-left: 0.5vw;
@@ -15,6 +19,7 @@
     display: grid;
     grid-template-columns: 37vw 1fr;
     align-items: center;
+    height: 27vw;
 }
 
 #horizontal-top-right {
@@ -23,9 +28,14 @@
 
 #cycling-adventures, #cycling-maintenance {
     border: 1px solid white;
+    height: 25vw;
 }
 
 .cycling-desc-text {
     border: 1px solid red;
     margin: 0 30px;
+}
+
+.cycling-detail {
+    font-size: 1.25vw;
 }
