@@ -15,20 +15,20 @@
     transform: scale(1.03);
 }
 
-#horizontal-top {
+#h-gearspecs {
     display: grid;
     grid-template-columns: 37vw 1fr;
     align-items: center;
     height: 27vw;
 }
 
-#horizontal-top-right {
+#h-gearspecs-desc {
     height: 26vw;
 }
 
 #cycling-adventures, #cycling-maintenance {
     border: 1px solid white;
-    height: 25vw;
+    height: 20vw;
 }
 
 .cycling-desc-text {
