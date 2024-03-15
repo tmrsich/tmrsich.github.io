@@ -30,7 +30,7 @@ html, body {
 
 #back-arrow {
     opacity: 100%;
-    transition: opacity 0.175s ease-in-out;
+    transition: opacity 0.175s ease;
     z-index: 1;
 }
 
@@ -39,7 +39,9 @@ html, body {
 }
 
 section {
-    height: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-top: 6vw;
     border: 5px solid black;
 }
