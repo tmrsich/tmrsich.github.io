@@ -1,7 +1,6 @@
 #amortizationSchedule {
     margin: 1vw;
     width: 23vw;
-    display: flex;
 }
 
 #financial-information th, #financial-information td {
@@ -11,5 +10,5 @@
 }
 
 #financial-information td {
-    display: table-cell;
+    display: table-cell;    
 }
